@@ -1,0 +1,932 @@
+    1  #
+    2  git clone git://localhost/hello.git network_hello
+    3  cd network_hello
+    4  #
+    5  git clone git://localhost/hello.git network_hello
+    6  cd network_hello
+    7  unzip sample files.zip
+    8  cd sample files.zip
+    9  cd "sample files.zip
+   10  "
+   11  dir
+   12  unzip sample\ files.zip
+   13  mkdir sampleFiles
+   14  mv _MACOSX ~/sampleFiles
+   15  mv __MACOSX ~/sampleFiles
+   16  cd sampleFiles
+   17  dir
+   18  cd ..
+   19  dir
+   20  cd sampleFiles
+   21  dir
+   22  cd ..
+   23  mv sampleFiles ~/workspace/sampleFiles
+   24  dir
+   25  cd workspace
+   26  dir
+   27  cd sampleFiles
+   28  dir
+   29  cd sampleFiles
+   30  dir
+   31  cd round1b
+   32  dir
+   33  cd ..
+   34  dir
+   35  cd round1b
+   36  dir
+   37  cd stable
+   38  c9steed.rb
+   39  c9 steed.rb
+   40  c9 stable.rb
+   41  cd ..
+   42  dir
+   43  touch newfile.js
+   44  mv newfile.js /sampleFiles
+   45  mv newfile.js ~/workspace/sampleFiles
+   46  c9 newfile.js
+   47  git init
+   48  git status
+   49  git commit -m "Added folder and new file"
+   50  git add newfile.js
+   51  git add round1b
+   52  git commit -m "added folder and new file"
+   53  git status
+   54  git mkdir newDirectory
+   55  mkdir newDirectory
+   56  cd newDirectory
+   57  touch newFile2.js
+   58  c9 newfile2.js
+   59  c9 newFile2.js
+   60  git add newDirectory
+   61  cd ..
+   62  git add newDirectory
+   63  git commit -m "added a new directory'
+   64  git commit -m "added a new directory"
+   65  git status
+   66  git add newfile.js
+   67  git commit -m "modified existing file-changed greeting"
+   68  git status
+   69  delete newfile.js
+   70  rm newfile.js
+   71  git status
+   72  git commit -m "deleted newfile.js"
+   73  git add newfile.js
+   74  git commit -m "deleted newfile.js"
+   75  git status
+   76  git hist
+   77  git branch [New branch]
+   78  git branch "New branch"
+   79  git branch newBranch
+   80  git status
+   81  git add newBranch
+   82  git checkout newBranch
+   83  git add newBranch
+   84  git status
+   85  touch newFileOnNewBranch.js
+   86  c9 newFileOnNewBranch.js
+   87  git add newFileOnNewBranch.js
+   88  git commit -m "added new file on new branch"
+   89  git hist
+   90  git hist --all
+   91  git merge master
+   92  git hist --all
+   93  git checkout master
+   94  git checkout newBranch
+   95  git merge master
+   96  git status
+   97  git add newFileOnNewBranch
+   98  git add newFileOnNewBranch.js
+   99  git commit -m "modified a file on new branch"
+  100  git hist --all
+  101  git branch thirdBranch
+  102  git status
+  103  git checkout thirdBranch
+  104  git merge masterA
+  105  rm newFileOnNewBranch.js
+  106  git add newFileOnNewBranch.js
+  107  git commit -m "deleted another file newFileOnNewBranch.js"
+  108  git status
+  109  git checkout master
+  110  git status
+  111  git hist
+  112  git hist --all
+  113  git branch hacker
+  114  git status
+  115  git hist
+  116  git hist --all
+  117  git branch "hacker"
+  118  git checkout hacker
+  119  touch hacker.txt
+  120  c9 hacker.txt
+  121  git status
+  122  git add hacker.txt
+  123  git commit -m "added hacker.txt to hacker branch"
+  124  git hist --all
+  125  git checkout c0c5c90
+  126  git hist --all
+  127  git checkout master
+  128  git checkout 14480b9
+  129  cat newfile.js
+  130  git checkout 1abdaab
+  131  cat newfile.js
+  132  git checkout master
+  133  cat newfile.js
+  134  git checkout newfile.js
+  135  git status
+  136  git checkout e5127d5
+  137  git status
+  138  cat newfile.js
+  139  c9 newfile.js
+  140  git add newfile.js
+  141  git status
+  142  git commit -m "updated a deleted file"
+  143  git hist --all
+  144  git push
+  145  git push master
+  146  git checkout master
+  147  git push
+  148  git push master
+  149  git hist --all
+  150  git checkout newBranch
+  151  git merge master
+  152  git hist --all
+  153  cd ..
+  154  cd hello
+  155  git remote add origin git@github.com:jbristol85/gitImmersion.git
+  156  git push -u origin master
+  157  cd ..
+  158  cd sampleFiles
+  159  git remote add origin git@github.com:jbristol85/gitImmersion.git
+  160  git push -u origin master
+  161  cd ..
+  162  mkdir classwork
+  163  cd classwork
+  164  touch addFactorialize
+  165  c9 addFactorialize
+  166  touch index.html
+  167  c9 index.html
+  168  git add newFileOnNewBranch.js
+  169  git merge master
+  170  node script.js
+  171  cd ..
+  172  ls
+  173  dir
+  174  pwd
+  175  whoami
+  176  cd
+  177  pwd
+  178  cd
+  179  pwd
+  180  cd workspace
+  181  cd /home0.......
+  182  clear
+  183  cd ~/workspace/
+  184  ls
+  185  mkdir
+  186  mkdir unix101a
+  187  ls
+  188  cd unix101a
+  189  ls
+  190  mkdir Rhode Island
+  191  ls
+  192  mkdir rhode\ island
+  193  ls
+  194  mkdir "new york"
+  195  ls
+  196  cd rhode\ island
+  197  mkdir providence warwick
+  198  ls
+  199  touch providence/475valleyst
+  200  ls
+  201  ls providence/
+  202  cd providence/
+  203  ls
+  204  touch 123smithst
+  205  ls
+  206  dir
+  207  touch 499hopest
+  208  ls
+  209  dir
+  210  mkdir eastside
+  211  mkdir southside
+  212  ls
+  213  ls -la
+  214  echo waterfire
+  215  echo waterfire > 475valleyst 
+  216  ls
+  217  cat 475valleyst 
+  218  cat 499hopest 
+  219  echo careerdevs > 475valleyst 
+  220  cat 475valleyst 
+  221  echo careerdevs >>waterfire
+  222  ls
+  223  cat 475valleyst 
+  224  echo waterfire
+  225  echo careerdevs >> 475valleyst 
+  226  ls
+  227  cat 475valleyst 
+  228  echo waterfire >> 475valleyst 
+  229  cat
+  230  cat 475valleyst 
+  231  vi 475valleyst 
+  232  cat 475valleyst 
+  233  ls -la
+  234  chmod 740 475valleyst 
+  235  ls -la
+  236  ./475valleyst 
+  237  ls
+  238  mkdir ~/workspace/javascript/DOM
+  239  cd .
+  240  cd ..
+  241  cd ~
+  242  cd workspace
+  243  mkdir javascript
+  244  cd javascript
+  245  mkdir DOM
+  246  cd DOM
+  247  touch index.html
+  248  c9 index.html
+  249  mkdir git_tutorial
+  250  ls
+  251  rv git_tutorial
+  252  h
+  253  help
+  254  cd ~/workspace
+  255  cd git_tutorial
+  256  unzip git_tutorial
+  257  cd git_tutorial
+  258  ls
+  259  cd repos
+  260  ls
+  261  cd lab_05
+  262  ls
+  263  c9 hello.rbn
+  264  c9 hello.rb
+  265  cd ..
+  266  mkdir hello
+  267  cd hello
+  268  touch hello.rb
+  269  c9 hello.rb
+  270  git init
+  271  git add hello.rb
+  272  git commit -m "first commit"
+  273  git status
+  274  git add hello.rb
+  275  git status
+  276  git commit -m "Using ARGV"
+  277  git status
+  278  git add hello.rb
+  279  git status
+  280  git commit -m "Added a default value"
+  281  git status
+  282  git add .
+  283  git status
+  284  git commit -m "Added a default value"
+  285  git status
+  286  git commit -m "added a comment"
+  287  git hist
+  288  git commit --amend
+  289  git hist
+  290  git commit --amend
+  291  pwd
+  292  cd /
+  293  ~
+  294  cd ~
+  295  pwd
+  296  ls
+  297  whoami
+  298  clear
+  299  pwd
+  300  cd /
+  301  cd /home/ubuntu
+  302  cd /
+  303  ls
+  304  cd /boot
+  305  ls
+  306  ls/bin
+  307  ls /bin
+  308  clear
+  309  ls
+  310  ls /
+  311  cd /home
+  312  ls
+  313  cd ubuntu/
+  314  ls
+  315  clear
+  316  pwd
+  317  cd workspace/
+  318  ls
+  319  mkdir firstName
+  320  ls
+  321  mkdir firstname
+  322  ls
+  323  cd firstName/
+  324  mkdir lastName
+  325  ls
+  326  mkdir maidenName
+  327  ls
+  328  cd lastName
+  329  touch lname
+  330  cat lname
+  331  echo Bristol > lname
+  332  cat lname
+  333  echo Gump > lname
+  334  cat lname
+  335  echo Bristol >> lname
+  336  cat lname 
+  337  vi lname
+  338  ls ..
+  339  ls lastName
+  340  cd lastName
+  341  ls
+  342  mv lname > maidenName
+  343  mv lname > ~/workspace/firstName/maidenName
+  344  cd ..
+  345  ls
+  346  cd maidenName
+  347  ls
+  348  clear
+  349  mv help
+  350  mv --help
+  351  cd ..
+  352  cd firstName
+  353  ls
+  354  cd lastName
+  355  ls
+  356  mv lname maidenName > lname
+  357  ls
+  358  mv lname > maidenName
+  359  mv maidenName > lname
+  360  ls
+  361  mv lname > maidenName
+  362  ls
+  363  mv maidenName > ls
+  364  ls
+  365  mv ls
+  366  mv ls >
+  367  ls
+  368  --help
+  369  mv --help
+  370  ls
+  371  mv ls
+  372  mv --help
+  373  cd ..
+  374  ls
+  375  cd lastName
+  376  ls
+  377  mv lname ls maidenName lname
+  378  ls
+  379  cat lname
+  380  cat lname ls maidenName
+  381  mv maidenName lname
+  382  ls
+  383  mv ls lname
+  384  ls
+  385  mv lname ..
+  386  ls
+  387  cd ..
+  388  ls
+  389  mv lname maidenName/
+  390  ls
+  391  cd maidenName
+  392  ls
+  393  cat lname
+  394  hello '
+  395  history
+  396  history > history.text
+  397  ls
+  398  mv history.text history.txt
+  399  ls
+  400  c9 history.txt
+  401  clear
+  402  ..
+  403  touch index.html
+  404  ls
+  405  c9 index.html
+  406  clear
+  407  cd
+  408  cd workspace/
+  409  ls
+  410  mkdir htmldemo
+  411  ls
+  412  cd htmldemo
+  413  ls
+  414  touch index.html
+  415  c9 index.html
+  416  cd ..
+  417  mkdir Tribute Page
+  418  cd Tribute Page
+  419  touch index.html
+  420  touch style.css
+  421  touch scripts.js
+  422  c9 index.html
+  423  c9 style.css
+  424  c9 scripts.js
+  425  clear
+  426  cd ..
+  427  mkdir htmlLesson
+  428  cd htmlLesson
+  429  touch index.html
+  430  c9 index.html
+  431  touch style.css
+  432  c9 style.css
+  433  git init
+  434  git status
+  435  git add index.html
+  436  git status
+  437  git add .
+  438  git status
+  439  git commit 
+  440  git commit -m "Initial Commit"
+  441  git status
+  442  git checkout index.html
+  443  mkdir scripts
+  444  cd scripts
+  445  touch scripts.js
+  446  c9 scripts.js
+  447  git status
+  448  git add -A
+  449  git status
+  450  git add -A
+  451  git status
+  452  git commit -m "modify index and add scripts"
+  453  git remote add origin git@github.com:jbristol85/cdgitLesson.git
+  454  git push -u origin master
+  455  cd ..
+  456  cd Tribute
+  457  git init
+  458  git add -A
+  459  git status
+  460  git commit -m "First tribute page push"
+  461  git status
+  462  git remote add origin git@github.com:jbristol85/careerDevsTributePage.git
+  463  git push -u origin master
+  464  git status
+  465  cd ..
+  466  mkdir hello
+  467  cd hello
+  468  git init
+  469  git add hello.rb
+  470  touch hello.rb
+  471  c9 hello.rb
+  472  git init
+  473  git add hello.rb
+  474  git commit -m "First Commit"
+  475  git status
+  476  git add hello.rb
+  477  git status
+  478  git commit
+  479  git status
+  480  git add hello.rb
+  481  git status
+  482  git add hello.rb
+  483  git status
+  484  git commit -m "Added a default value"
+  485  git status
+  486  git add .
+  487  git status
+  488  git commit -m "Added a comment"
+  489  git log
+  490  git log --pretty=oneline
+  491  git log --pretty=oneline --max-count=2
+  492  git log --pretty=oneline --since='5 minutes ago'
+  493  git log --pretty=oneline --until='5 minutes ago'
+  494  git log --pretty=oneline --author=<Josh Bristol>
+  495  git log --pretty=oneline --author=<jbristol>
+  496  git log --pretty=oneline --all
+  497  git log --pretty=format: %h %ad | %s%d [%an]' --graph --date=short
+  498  git log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+  499  exit'
+  500  git log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+  501  gi st
+  502  git st
+  503  git hist
+  504  git co <4be2201>
+  505  git checkout <4be2201>
+  506  git checkout 4be2201
+  507  cat hello.rb
+  508  puts "Hello, World"
+  509  git checkout master
+  510  cat hello.rb
+  511  git tag v1
+  512  git checkout v1^
+  513  cat hello.rb
+  514  git tag v1-beta
+  515  git checkout v1
+  516  git checkout v1-beta
+  517  git tag
+  518  git hist master --all
+  519  git checkout master
+  520  git status
+  521  git checkout hello.rb
+  522  git status
+  523  cat hello.rb
+  524  git status
+  525  git add hello.rb
+  526  git st
+  527  git reset HEAD hello.rb
+  528  git checkout hello.rb
+  529  git status
+  530  git add hello.rb
+  531  git commit -m "oops, we didn't want this commit"
+  532  git revert HEAD
+  533  git hist
+  534  git status
+  535  git hist
+  536  git tag oops
+  537  git reset --hard v1
+  538  git hist
+  539  git hist --all
+  540  git tag -d oops
+  541  git hist --all
+  542  git add hello.rb
+  543  git commit -m "Add an author comment"
+  544  git add hello.rb
+  545  git commit --amend -m "Add an author/email comment"
+  546  git hist
+  547  mkdir lib
+  548  git mv hello.rb lib
+  549  git status
+  550  git commit -m "Moved hello.rb to lib"
+  551  git status
+  552  git hist
+  553  gen install rake
+  554  cd .
+  555  ls -C .git
+  556  ls -C .git/objects
+  557  ls -C .git/objects/f4
+  558  cat .git/config
+  559  ls .git/refs
+  560  ls .git/refs/heads
+  561  ls .git/refs/tags
+  562  ls .git/refs/tags/v1
+  563  cat .git/refs/tags/v1
+  564  cat .git/HEAD
+  565  git hist --max-count=1
+  566  git cat-file -t f1159fb
+  567  git cat-file -p f1159fb
+  568  git cat-file -p f853174c2cccc14f002ab0de7b3453d64ea952e8
+  569  git cat-file -p 2825be8655464d0e97d2bbc7e52f75ad49c7981b
+  570  git cat-file -p 53b96b0ad574a36b8fded1acfbba13a2893bf72f
+  571  git checkout -b greet
+  572  git st
+  573  cd lib
+  574  touch greeter.rb
+  575  c9 greeter.rb
+  576  git add lib/greeter.rb
+  577  cd ..
+  578  git add lib/greeter.rb
+  579  git commit -m "Added greeter class"
+  580  git add lib/hello.rb
+  581  git commit -m "Hello uses Greeter"
+  582  git hist --all
+  583  git checkout master
+  584  cat lib/hello.rb
+  585  git checkout greet
+  586  cat lib/hello.rb
+  587  git checkout master
+  588  touch README
+  589  c9 README
+  590  git add README
+  591  git status
+  592  git commit -m "Added README"
+  593  git hist --all
+  594  git checkout greet
+  595  git merge master
+  596  git hist --all
+  597  git checkout master
+  598  c9 hello.rb
+  599  git add lib/hello.rb
+  600  git commit -m "Made interactive"
+  601  git hist --all
+  602  git checkout greet
+  603  git merge master
+  604  git add lib/hello.rb
+  605  git commit -m "Merged master fixed conflict."
+  606  git checkout greet
+  607  git hist
+  608  git reset --hard 7bacde3
+  609  git hist --all
+  610  git checkout master
+  611  git hist
+  612  git reset --hard cdbca62
+  613  git hist --all
+  614  git checkout greet
+  615  git rebase master
+  616  git hist
+  617  git checkout master
+  618  git merge greet
+  619  git hist
+  620  cd ..
+  621  pwd
+  622  ls
+  623  git clone hello cloned_hello
+  624  ls
+  625  cd cloned_hello
+  626  ls
+  627  git hist --all
+  628  git history -- all
+  629  git hist --all
+  630  git remote
+  631  git remote show origin
+  632  git branch
+  633  git branch -a
+  634  cd ../hello
+  635  c9 README
+  636  git add README
+  637  git commit -m "Changed README in original repo"
+  638  cd ../cloned_hello
+  639  git fetch
+  640  git hist --all
+  641  cat README
+  642  git merge origin/master
+  643  cat README
+  644  git branch --track greet origin/greet
+  645  get branch -a
+  646  git branch -a
+  647  git hist --max-count=2
+  648  cd ..
+  649  git clone --bare hello hello.git
+  650  ls hello.git
+  651  cd hello
+  652  git remote add shared ../hello.git
+  653  git checkout master
+  654  git add README
+  655  git commit -m "Added shared comment to readme"
+  656  git push shared master
+  657  cd ../cloned_hello
+  658  git remote add shared ../hello.git
+  659  git branch --track shared master
+  660  git pull shared master
+  661  cat README
+  662  cd ..
+  663  git daemon --verbos --export-all --base-path=.
+  664  cd hello
+  665  git daemon --verbos --export-all --base-path=.
+  666  git hist
+  667  cd git_tutorial
+  668  cd ..
+  669  cd git_tutorial
+  670  cd hello
+  671  git hist
+  672  git log
+  673  git log --pretty=oneline
+  674  git log --pretty=oneline --max-count=2
+  675  git log --pretty=oneline --since='5 minutes ago'
+  676  git log --pretty=oneline --until='5 minutes ago'
+  677  git log --pretty=oneline --author=Josh Bristol
+  678  git log --pretty=oneline --all
+  679  git log --all --pretty=format:'%h %cd %s (%an)' --since='7 days ago'
+  680  git hist
+  681  git checkout b261cb1
+  682  cat hello.rb
+  683  cat hello.rb e47b40c
+  684  git checkout e47b40c
+  685  cat hello.rb
+  686  git checkout master
+  687  cat hello.rb
+  688  git tag v1
+  689  git checkout v1^
+  690  cat hello.rb
+  691  git tag v1-beta
+  692  git checkout v1
+  693  git checkout v1-beta
+  694  git tag
+  695  git hist master --all
+  696  git checkout master
+  697  git status
+  698  git checkout hello.rb
+  699  git status
+  700  cat hello.rb
+  701  git add hello.rb
+  702  git status
+  703  git reset HEAD hello.rb
+  704  git checkout hello.rb
+  705  git status
+  706  git add hello.rb
+  707  git commit -m "Oops, we didn't want this commit"
+  708  git revert HEAD
+  709  git hist
+  710  git tag oops
+  711  git hist
+  712  git reset --hard v1
+  713  git hist
+  714  git hist --all
+  715  git tag -d oops
+  716  git hist --all
+  717  git add hello.rb
+  718  git commit -m "Add an author comment"
+  719  git add hello.rb
+  720  git commit --amend -m "Add and author/email comment"
+  721  git hist
+  722  cd ..
+  723  mkdir lib
+  724  git mv hello.rb lib
+  725  cd hello
+  726  mkdir lib
+  727  git mv hello.rb lib
+  728  git status
+  729  git commit -m "Moved hello.rb to lib"
+  730  touch rakefile
+  731  c9 rakefile
+  732  git add rakefile
+  733  git commit -m "Added a Rakefile."
+  734  rake
+  735  ls -C .git
+  736  ls -C .git/objects
+  737  ls -C .git/objects/14
+  738  cat .git/config
+  739  ls .git/refs
+  740  ls .git/heads
+  741  ls .git/refs
+  742  ls .git/refs/heads
+  743  ls .git/refs/tags
+  744  ls .git/refs/tags/v1
+  745  cat .git/HEAD
+  746  git hist --max-count=1
+  747  git cat-file -t ea1b4ec
+  748  git cat-file -p ea1b4ec
+  749  git cat-file -p ec5e9dc1e504079b2a07da570980b6da36429ff6
+  750  git cat-file -p a9cc3b56fa9d842c4f73b849f55f602a65c85f34
+  751  git cat-file -p f752110e70b73f070cdd5452bd7a979a00f53eec 
+  752  git checkout -b greet
+  753  git status
+  754  cd ..
+  755  cd lib
+  756  touch greeter.rb
+  757  c9 greeter.rb
+  758  git add lib/greeter.rb
+  759  git mv greeter.rb /hello/lib
+  760  mv greeter.rb /hello/lib
+  761  mv greeter.rb ~git_tutorial/hello/lib
+  762  cd ..
+  763  cd lib
+  764  git add lib/greeter.rb
+  765  cd ..
+  766  cd hello/lib
+  767  git add lib/greeter.rb
+  768  cd ..
+  769  ls
+  770  cd lib
+  771  ls
+  772  git addgreeter.rb
+  773  git add greeter.rb
+  774  git commit -m "Added greeter class"
+  775  git add hello.rb
+  776  git commit -m "Hello uses Greeter"
+  777  cd ..
+  778  git add rakefile
+  779  git commit -m "Updated 
+  780  Rakefile"
+  781  git hist
+  782  git commit -m "Updated Rakefile"
+  783  git hist -all
+  784  git hist --all
+  785  git checkout master
+  786  cat lib/hello.rb
+  787  git checkout greet
+  788  cat lib/hello.rb
+  789  cd .
+  790  cd ..
+  791  cd unix101a
+  792  cd ..
+  793  mkdir unix102
+  794  touch unix102/names
+  795  cd unix102
+  796  ls
+  797  cd unix102
+  798  ls -l
+  799  ls -la
+  800  vi
+  801  node
+  802  ls
+  803  ls -a
+  804  mkdir unixstuff
+  805  ls
+  806  cd unixstuff
+  807  ls - a
+  808  ls -a
+  809  cd .
+  810  cd ..
+  811  pwd
+  812  ls unixstuff
+  813  ls backups
+  814  ls unixstuff/backups
+  815  ls ~/unixstuff
+  816  ls ~/workspace/unixstuff
+  817  ls ~
+  818  ls ~/..
+  819  cd ~/unixstuff
+  820  cd ~
+  821  pwd
+  822  ls
+  823  cd workspace
+  824  cd ~/workspace/unixstuff
+  825  cp /vol/ee/ee-info/Teaching/Unix/science.txt .
+  826  cp science.txt .
+  827  cp science.txt science.bak
+  828  mv science.bak backups/ .
+  829  mkdir backups
+  830  mv science.bak backups/ .
+  831  mv science.bak backups/.
+  832  ls
+  833  ls backups
+  834  cp science.txt tempfile.txt
+  835  ls
+  836  rm tempfile.txt
+  837  ls
+  838  mkdir tempstuff
+  839  rm tempstuff
+  840  ls
+  841  rm tempstuff/
+  842  rm tempstuff/.
+  843  rmdir tempstuff
+  844  clear
+  845  cat science.txt
+  846  less science.txt
+  847  head science.txt
+  848  head -5 science.txt
+  849  tail science.txt
+  850  less science.txt
+  851  clear
+  852  grep science science.txt
+  853  grep Science science.txt
+  854  grep -i  Science science.txt
+  855  grep -i  'spinning top'  science.txt
+  856  grep -ivn  the  science.txt
+  857  grep -ivc  the  science.txt
+  858  grep -ivc  science  science.txt
+  859  wc -w science.txt
+  860  wc -l science.txt
+  861  cat
+  862  cat > list1
+  863  cat list1
+  864  cat > list2
+  865  cat list2
+  866  cat >> list1
+  867  cat list1
+  868  cat list1 list2 > biglist
+  869  cat biglist
+  870  sort
+  871  sort < biglist > slist
+  872  cat slist
+  873  who
+  874  who > names.txt
+  875  sort < names.txt
+  876  who | sort
+  877  who | wc -1
+  878  grep -in p  list1 list2 | sort
+  879  cat list1 list2 | grep p | sort
+  880  ls list*
+  881  ls *list
+  882  ls ?list
+  883  man wc
+  884  whatis wc
+  885  apropos keyword
+  886  apropos copy
+  887  ls -1
+  888  ls -l
+  889  ls -lg
+  890  chmod go-rwx biglist
+  891  chmod a+rw biglist
+  892  ls -l
+  893  ls -l science.txt
+  894  chmod go+w science.txt
+  895  ls -l
+  896  ps
+  897  sleep 10
+  898  sleep 10 &
+  899  sleep 1000
+  900  jobs
+  901  fg %jobnumber
+  902  fg %1
+  903  fg %l
+  904  sleep 100
+  905  sleep 1000 &
+  906  ps
+  907  kill 23527
+  908  quote -v
+  909  quota -v
+  910  df .
+  911  du -s *
+  912  gzip ls -l science.txt
+  913  gzip science.txt
+  914  la -l
+  915  gunzip science.txt.gz
+  916  ls -l
+  917  gzip science.txt
+  918  zcat science.txt.gz
+  919  zcat science.txt.gz | less
+  920  file *
+  921  diff file1 file2
+  922  diff list1 list2
+  923  find . -name "*.txt" -print
+  924  find . -size +1M -la
+  925  find . -size +1M -ls
+  926  history
+  927  find . -size +1M -la
+  928  git clone git://localhost/hello.git network_hello
+  929  grep -in p  list1 list2 | sort
+  930  set history=100
+  931  history
+  932  history > history.txt
